@@ -25,6 +25,7 @@ customizable development environments.
     - the other node2nix
     - pnpm2nix
     - yarn2nix
+    - [napalm](https://github.com/nmattia/napalm)
     - etc
     - (Theia uses 'yarn' and seems to have some sort of custom build step for its plugins, hopefully that's not a pain)
   - I'm bad at node stuff, and worse with node+nix, need to get someone to advise
