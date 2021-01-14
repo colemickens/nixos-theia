@@ -1,4 +1,6 @@
 {
+  "name": "theia-nix-test",
+  "version": "0.0.1",
   "private": true,
   "theia": {
     "frontend": {

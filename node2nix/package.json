@@ -1,0 +1,54 @@
+{
+  "name": "theia-nix-test",
+  "version": "0.0.1",
+  "private": true,
+  "theia": {
+    "frontend": {
+      "config": {
+        "applicationName": "Theia Multi-Language Example",
+        "preferences": {
+          "files.enableTrash": false,
+          "ruby.useLanguageServer": true,
+          "php.suggest.basic": false
+        }
+      }
+    }
+  },
+  "dependencies": {
+    "@theia/callhierarchy": "next",
+    "@theia/console": "next",
+    "@theia/core": "next",
+    "@theia/debug": "next",
+    "@theia/editor": "next",
+    "@theia/editor-preview": "next",
+    "@theia/filesystem": "next",
+    "@theia/getting-started": "next",
+    "@theia/git": "next",
+    "@theia/keymaps": "next",
+    "@theia/markers": "next",
+    "@theia/messages": "next",
+    "@theia/metrics": "next",
+    "@theia/mini-browser": "next",
+    "@theia/monaco": "next",
+    "@theia/navigator": "next",
+    "@theia/outline-view": "next",
+    "@theia/output": "next",
+    "@theia/plugin": "next",
+    "@theia/plugin-ext": "next",
+    "@theia/plugin-ext-vscode": "next",
+    "@theia/preferences": "next",
+    "@theia/preview": "next",
+    "@theia/process": "next",
+    "@theia/scm": "next",
+    "@theia/task": "next",
+    "@theia/terminal": "next",
+    "@theia/typehierarchy": "next",
+    "@theia/userstorage": "next",
+    "@theia/variable-resolver": "next",
+    "@theia/vsx-registry": "next",
+    "@theia/workspace": "next"
+  },
+  "devDependencies": {
+    "@theia/cli": "next"
+  }
+}
